@@ -1,0 +1,17 @@
+Device Config for Htc Explorer(Pico) for building MiniCM9
+
+Whats Working-
+ - WiFi
+ - Hardware acceleration
+ - RIL
+ - Gps
+ - Audio
+ - Usb Mass Storage
+ - Bluetooth
+ - Usb tethering
+ - Camera
+ - Video Playback
+ - Bluetooth car kit & headset
+
+What Doesnt work-
+ - ?
