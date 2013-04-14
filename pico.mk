@@ -185,12 +185,6 @@ PRODUCT_COPY_FILES += \
 # Prebuilt Binaries
 # Don't work on 4.0.4 because from 2.3.5! And we don't need this !
 
-# Prebuilt Modules
-PRODUCT_COPY_FILES += \
-    device/htc/pico/prebuilt/lib/modules/bcmdhd.ko:system/lib/modules/bcmdhd.ko \
-    device/htc/pico/prebuilt/lib/modules/kineto_gan.ko:system/lib/modules/kineto_gan.ko \
-    device/htc/pico/prebuilt/lib/modules/tun.ko:system/lib/modules/tun.ko 
-
 # Wifi
 PRODUCT_COPY_FILES += \
     device/htc/pico/prebuilt/etc/calibration:system/etc/calibration \
