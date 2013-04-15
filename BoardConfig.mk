@@ -90,7 +90,7 @@ WIFI_DRIVER_FW_PATH_STA          := "/system/etc/firmware/fw_bcm4330.bin"
 WIFI_DRIVER_FW_PATH_AP           := "/system/etc/firmware/fw_bcm4330_apsta.bin"
 WIFI_DRIVER_FW_PATH_P2P          := "/system/etc/firmware/fw_bcm4330_p2p.bin"
 WIFI_DRIVER_FW_PATH_PARAM        := "/sys/module/bcmdhd/parameters/firmware_path"
-WIFI_DRIVER_MODULE_ARG           := "firmware_path=/system/etc/firmware/fw_bcm4330.bin nvram_path=/proc/calibration iface_name=eth0"
+WIFI_DRIVER_MODULE_ARG           := "firmware_path=/system/etc/firmware/fw_bcm4330.bin nvram_path=/system/etc/calibration iface_name=eth0"
 BOARD_LEGACY_NL80211_STA_EVENTS  := true
 
 # Releasetools
