@@ -96,7 +96,7 @@ PRODUCT_PACKAGES += \
     dexpreopt \
     lights.msm7x27a \
     sensors.msm7x27a \
-    gps.msm7x27a    
+    gps.pico    
     
 # Camera
 PRODUCT_PACKAGES += \
@@ -221,8 +221,8 @@ PRODUCT_COPY_FILES += \
 
 # 3D(ICS Blobs)
 PRODUCT_COPY_FILES += \
-    deivce/htc/pico/prebuilt/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    deivce/htc/pico/prebuilt/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+    device/htc/pico/prebuilt/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
+    device/htc/pico/prebuilt/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/htc/pico/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/htc/pico/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/htc/pico/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
